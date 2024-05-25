@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.barranave {
+    background: linear-gradient(135deg, #fff, #fff, #a4fca9, #7dec82,  #57e65f, #26d13d);
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.barranave__container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.fa-gem {
+    margin-right: 0.5rem;
+}
+
+.barranave__menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+}
+
+.barranave__links{
+    color: #EAF8D1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.barranave__links img{
+    width: 50px;
+}
+
+.redcom{
+    height: 80px;
+}
+
+.barranave__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: #026829;
+    color: #EAF8D1;
+}
+
+.boton:hover{
+    background: #F5D771;
+    transition: all 0.5s ease;
+}
+
+.barranave__links:hover{
+    color: #026829;
+    transition: all 0.5s ease;
+}
+
+.bodys{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; 
+    gap: 10px; 
+    padding: 10px 0; 
+
+}
+
+.container0{
+    display: flex;
+    height: 35vh;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    flex-grow: 1;
+    padding: 0 40px;
+}
+
+.containera{
+    display: flex;
+    height: 65vh;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    flex-grow: 1;
+    padding: 0 40px;
+    background: #dafcdb;
+    font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.divprimero, .divsegundo {
+    width: 50em;
+    height: 10em;
+    background: linear-gradient(45deg, #fff3f3, #fdebb0);
+    box-shadow: 1.25px 1.25px 6.25px #0e010f;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.containerb{
+    display: flex;
+    height: 35vh;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    flex-grow: 1;
+    padding: 0 40px;
+    background: #dafcdb;
+}
+.div1, .div2, .div3 {
+    width: 36em;
+    height: 20em;
+    background: linear-gradient(135deg, #fff3f3, #a4fca9);
+    box-shadow: 1.25px 1.25px 6.25px #0e010f;
+    padding: 10px 30px;
+    border-radius: 10px;
+    justify-content: space-around;
+    font:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1, h2, h3{
+    color: #026829;
+}
+
+.containerc{
+    height: 35vh;
+    background: #222925;
+}
+
+.bodys{
+    height: 15vh;
+    background: #222925;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #F5D771;
+    align-items: center;
+
+}
+
+.ilustraciones1 {
+    width: 250px;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+.ilustraciones2 {
+    width: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}
+
+.ilustraciones3{
+    width: 230px;
+    align-content: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: #026829;
+    font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #F5D771;
+}
+
+.botoncito:hover{
+    background: #71f5f5;
+    transition: all 0.5s ease;
+    color: #fcba41;
+}
+
+.containerc{
+    align-content: center;
+    padding: 0 650px;
+}
+
+.containerc p{
+    color: #fae49d;
+}
